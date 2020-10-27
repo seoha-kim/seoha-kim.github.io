@@ -1,28 +1,28 @@
 - layout: top
   name: NVH Diagnosis Method and Apparatus for Electric Motor <br> Korea Patent 10-2020-0022362 filled February 2020
   description: | 
-    Hyndai Mobis Data Science Team Intern Projects <br>
+    __Hyndai Mobis Data Science Team Intern Protect__<br>
     Audio data, LSTM Auto Encoder-Decoder and CNN Model Ensemble <br>
     I have implemented the RCNN model, an ensemble of LSTM Auto Encoder and CNN model. I applied for a Korean patent in February 2020 with my co-researcher.
    
 - layout: top
   name: Improving Operating Ratio through CT Pattern Analysis
   description: | 
-    Hyndai Mobis Data Science Team Intern Projects <br>
+    __Hyndai Mobis Data Science Team Intern Project__ <br>
     Numeric data, CT Calculation, Xgboost, Feature Selection, CT Simulation <br>
     I analyzed the factory CT data to examine which variables affect the OK/NG results. I selected the best ML algorithm and saw how to adjust variables.
     
 - layout: top
   name: Optimization Solder Pressing at the SMT Line
   description: | 
-    Hyndai Mobis Data Science Team Intern Projects <br>
+    __Hyndai Mobis Data Science Team Intern Project__ <br>
     Numeric data, PCB visualization, T-Test, Apriori, XGboost, Feature Importance <br>
     I visualized the NG PCB plate, and classified the NG holes through Aprori. I identified which variables affect the OK/NG results for each classification.
 
 - layout: top
-  name: Animal AI Camera Mobile Application ‘MONGUL’ <br>  
-     Yosei Students Entrepreneurship Team
+  name: Animal AI Camera Mobile Application ‘MONGUL’ 
   description: | 
+    __Yosei Students Entrepreneurship Team Project__ <br>
     Image Detection, Face Landmark Detection,YOLO3, Mobile Net <br>
     I ran a student start-up team with the support of Yonsei University's start-up support group. Based on YOLO3 and Mobile Net, the animal AI camera MONGUL has been developed to the prototype stage. We are considering optimizing mobile devices and connecting servers.
     
