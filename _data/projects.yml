@@ -23,13 +23,13 @@
   name: Predicting IQ for Children with Development Delay
   description: | 
     __Digital Healthcare Lab__ <br>
-    *Data EDA, Correlation, XGBooost, Light GbM, Random Forest* <br>
+    *Numeric data, Correlation Analysis, XGBooost, Light GbM, Random Forest* <br>
     I used functional game play data to predict IQs for children with developmental delays.
 
 - layout: top
   name: Animal AI Camera Mobile Application ‘MONGUL’ 
   description: | 
     __Yosei Students Entrepreneurship Team__ <br>
-    *Image Detection, Face Landmark Detection,YOLO3, Mobile Net* <br>
+    *Video data, Face Landmark Detection, YOLO3, Mobile Net* <br>
     I ran a student start-up team with the support of Yonsei University's start-up support group. Based on YOLO3 and Mobile Net, the animal AI camera MONGUL has been developed to the prototype stage. We are considering optimizing mobile devices and connecting servers.
     
