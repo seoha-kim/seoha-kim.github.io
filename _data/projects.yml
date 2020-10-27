@@ -1,4 +1,4 @@
-- layout: top-middle
+- layout: top-left
   name: NVH Diagnosis Method and Apparatus for Electric Motor <br> Korea Patent 10-2020-0022362 filled February 2020
   quote: >
     Hyndai Mobis Projects <br>
@@ -6,7 +6,7 @@
   # description: | 
     # I have implemented the RCNN model, an ensemble of LSTM Auto Encoder and CNN model. I applied for a Korean patent in February 2020 with my co-researcher.
    
-- layout: top-middle
+- layout: top-left
   name: Improving Operating Ratio through CT Pattern Analysis
   quote: >
     Hyndai Mobis Projects <br>
@@ -14,7 +14,7 @@
   # description: | 
     # I analyzed the factory CT data to examine which variables affect the OK/NG results. I selected the best ML algorithm and saw how to adjust variables.
     
-- layout: top-middle
+- layout: top-left
   name: Optimization Solder Pressing at the SMT Line
   quote: >
     Hyndai Mobis Projects <br>
