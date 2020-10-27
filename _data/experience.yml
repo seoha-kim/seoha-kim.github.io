@@ -1,0 +1,23 @@
+- layout: left
+  company: Hyundai Mobis
+  link: https://www.mobis.co.kr
+  job_title: Data Science Team Intern
+  description: | 
+    __September 2019 - February 2020 / 6 months__<br>
+    During the internship of Hyundai Mobis Data Science Team, I was mainly responsible for implementing deep learning models and designing machine learning analysis. A total of three projects were carried out, and one of them was successful in applying for a Korean patent. In addition, I researched demand forecasting, Auto ML, and interactive data visualization.
+
+- layout: left
+  company: Digital Healthcare Lab
+  link: https://www.dhlab.org
+  job_title: Undergradaute Researcher
+  description: | 
+    __March 2020 - October 2020 / 8 months__<br>
+    During my undergraduate research period at Digital Healthcare Lab, I was in charge of managing research participants and modeling simple machine learning related to cognitive learning mobile applications. In addition, I experienced the research process while participating in research progress meetings and journal clubs
+    
+- layout: left
+  company: Like Lion
+  link: https://likelion.net
+  job_title: AI Assistant Instructor
+  description: | 
+    __October 2020 - December 2020 / 3 months__<br>
+    I worked as an AI assistant instructor during the Gwangju ICT Innovation Square program, which was run by Like Lion. I answered questions about overall management of students and AI and machine learning.

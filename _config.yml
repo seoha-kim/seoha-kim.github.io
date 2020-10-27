@@ -1,0 +1,64 @@
+# Site
+repository: seoha-kim/seoha-kim.github.io
+favicon: images/favicon.ico
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Personal info
+name: Seoha Kim
+title: Future ML Engineer
+email: chalcoalk@naver.com
+website: https://learning-sarah.tistory.com/
+
+# Social links
+github_username:  seoha-kim
+linkedin_username: 서하-김-6301361b9
+
+# Additional icon links
+additional_links:
+- title: tistory
+  icon: fas fa-blog
+  url: https://learning-sarah.tistory.com/
+  
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  <br> My name is Seoha Kim and I majored in Business Administration and Cognitive Science at Yonsei University.<br>
+I am interested in applying <mark>AI</mark> algorithm to <mark>HCI</mark> and <mark>digital healthcare</mark>.<br>
+I have carried out many machine running projects, mainly dealing with images and structured data. <br>
+Several audio classification and reinforcement learning projects have been carried out. 
+
+Currently, I am interested in __multi-modal data processing using real-time streaming__,<br>
+and I'm studying hadoop, spark, and cloud services for it.
+
+# Education Section
+educaton_title: Education
+
+# Experience Section
+experience_title: Experience
+
+# Projects Section
+projects_title: Projects
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in machine learning and data engineering some of my other interests and hobbies are:
+   - Reading Novels
+   - Gaming
+   - Traveling
+   
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
