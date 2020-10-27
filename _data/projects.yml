@@ -1,36 +1,28 @@
 - layout: top
   name: NVH Diagnosis Method and Apparatus for Electric Motor <br> Korea Patent 10-2020-0022362 filled February 2020
   description: | 
-    Hyndai Mobis Projects / Audio data, LSTM Auto Encoder-Decoder and CNN Model Ensemble <br>
+    Hyndai Mobis Data Science Team Intern Projects <br>
+    Audio data, LSTM Auto Encoder-Decoder and CNN Model Ensemble <br>
     I have implemented the RCNN model, an ensemble of LSTM Auto Encoder and CNN model. I applied for a Korean patent in February 2020 with my co-researcher.
    
 - layout: top
   name: Improving Operating Ratio through CT Pattern Analysis
   description: | 
-    Hyndai Mobis Projects / Numeric data, CT Calculation, Xgboost, Feature Selection, CT Simulation <br>
+    Hyndai Mobis Data Science Team Intern Projects <br>
+    Numeric data, CT Calculation, Xgboost, Feature Selection, CT Simulation <br>
     I analyzed the factory CT data to examine which variables affect the OK/NG results. I selected the best ML algorithm and saw how to adjust variables.
     
 - layout: top
   name: Optimization Solder Pressing at the SMT Line
   description: | 
-    Hyndai Mobis Projects / Numeric data, PCB visualization, T-Test, Apriori, XGboost, Feature Importance <br>
+    Hyndai Mobis Data Science Team Intern Projects <br>
+    Numeric data, PCB visualization, T-Test, Apriori, XGboost, Feature Importance <br>
     I visualized the NG PCB plate, and classified the NG holes through Aprori. I identified which variables affect the OK/NG results for each classification.
 
 - layout: top
-  name: Animal Camera AI App ‘MONGUL’ Proto-typing <br>  
+  name: Animal AI Camera Mobile Application ‘MONGUL’ <br>  
      Yosei Students Entrepreneurship Team
   description: | 
     Image Detection, Face Landmark Detection,YOLO3, Mobile Net <br>
     I ran a student start-up team with the support of Yonsei University's start-up support group. Based on YOLO3 and Mobile Net, the animal AI camera MONGUL has been developed to the prototype stage. We are considering optimizing mobile devices and connecting servers.
-
-- layout: top
-  name: Super Mario AI Agent Using Deep Q Network
-  description: | 
-    Reinforcement Learning, Deep Q Network, Double Deep Q Network, A3C <br>
-    I made Super Mario AI Agent using Open AI Gym environment. DQN, DDQN, and A3C were used as reinforcement learning algorithms.
-
-- layout: top
-  name: ePeople Public Proposal Text Mining
-  description: | 
-    Text data, Co-occurrence Analysis, Social Network Analysis, LDA Topic Modeling, Text Rank <br>
-    I carried out text mining by crawling petition posts on Public Proposal website.  I visualized social network analysis through co-occurence analysis results.
+    
