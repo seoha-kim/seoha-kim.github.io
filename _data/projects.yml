@@ -16,28 +16,21 @@
     Hyndai Mobis Projects / Numeric data, PCB visualization, T-Test, Apriori, XGboost, Feature Importance <br>
     I visualized the NG PCB plate, and classified the NG holes through Aprori. I identified which variables affect the OK/NG results for each classification.
 
-- layout: top-middle
-  name: Super Mario AI Agent Using Deep Q Network
-  quote: >
-    Reinforcement Learning, Deep Q Network, Double Deep Q Network, A3C
-
-- layout: top-middle
+- layout: top
   name: Animal Camera AI App ‘MONGUL’ Proto-typing <br>  
      Yosei Students Entrepreneurship Team
-  quote: >
-    Image Detection, Face Landmark Detection,YOLO3, Mobile Net
+  description: | 
+    Image Detection, Face Landmark Detection,YOLO3, Mobile Net <br>
+    I ran a student start-up team with the support of Yonsei University's start-up support group. Based on YOLO3 and Mobile Net, the animal AI camera MONGUL has been developed to the prototype stage. We are considering optimizing mobile devices and connecting servers.
 
-- layout: top-middle
+- layout: top
+  name: Super Mario AI Agent Using Deep Q Network
+  description: | 
+    Reinforcement Learning, Deep Q Network, Double Deep Q Network, A3C <br>
+    I made Super Mario AI Agent using Open AI Gym environment. DQN, DDQN, and A3C were used as reinforcement learning algorithms.
+
+- layout: top
   name: ePeople Public Proposal Text Mining
-  quote: >
-    Text data, Co-occurrence Analysis, Social Network Analysis, LDA Topic Modeling, Text Rank
- 
-- layout: top-middle
-  name: Analysis on the Factors Attracting Startup Investment 
-  quote: >
-    Factor Analysis, K-Means Clustering, Case Based Reasoning, Logistic Regression
-
-- layout: top-middle
-  name: Korean Listed Stock Price Prediction
-  quote: >
-    Correlation Analysis, K-Means Clustering, Decision Tree, Random Forest, LSTM
+  description: | 
+    Text data, Co-occurrence Analysis, Social Network Analysis, LDA Topic Modeling, Text Rank <br>
+    I carried out text mining by crawling petition posts on Public Proposal website.  I visualized social network analysis through co-occurence analysis results.
