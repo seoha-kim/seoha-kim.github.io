@@ -3,22 +3,47 @@
   quote: >
     Hyndai Mobis Projects <br>
     Audio data, LSTM Auto Encoder-Decoder and CNN Model Ensemble
-  description: | 
-    I have implemented the RCNN model, an ensemble of LSTM Auto Encoder and CNN model. I applied for a Korean patent in February 2020 with my co-researcher.
+  # description: | 
+    # I have implemented the RCNN model, an ensemble of LSTM Auto Encoder and CNN model. I applied for a Korean patent in February 2020 with my co-researcher.
    
 - layout: top-middle
   name: Improving Operating Ratio through CT Pattern Analysis
   quote: >
     Hyndai Mobis Projects <br>
     Numeric data, CT Calculation, Xgboost, Feature Selection, CT Simulation
-  description: | 
-    I analyzed the factory CT data to examine which variables affect the OK/NG results. I selected the best ML algorithm and saw how to adjust variables.
+  # description: | 
+    # I analyzed the factory CT data to examine which variables affect the OK/NG results. I selected the best ML algorithm and saw how to adjust variables.
     
 - layout: top-middle
-  name: Numeric data, Optimization Solder Pressing at the SMT Line
+  name: Optimization Solder Pressing at the SMT Line
   quote: >
     Hyndai Mobis Projects <br>
-    PCB visualization, T-Test, Apriori, XGboost, Feature Importance
-  description: | 
-    I visualized the NG PCB plate, and classified the NG holes through Aprori. I identified which variables affect the OK/NG results for each classification.
-    
+    Numeric data, PCB visualization, T-Test, Apriori, XGboost, Feature Importance
+  # description: | 
+    # I visualized the NG PCB plate, and classified the NG holes through Aprori. I identified which variables affect the OK/NG results for each classification.
+
+- layout: top-middle
+  name: Super Mario AI Agent Using Deep Q Network
+  quote: >
+    Reinforcement Learning, Deep Q Network, Double Deep Q Network, A3C
+
+- layout: top-middle
+  name: Animal Camera AI App ‘MONGUL’ Proto-typing <br>  
+     Yosei Students Entrepreneurship Team
+  quote: >
+    Image Detection, Face Landmark Detection,YOLO3, Mobile Net
+
+- layout: top-middle
+  name: ePeople Public Proposal Text Mining
+  quote: >
+    Text data, Co-occurrence Analysis, Social Network Analysis, LDA Topic Modeling, Text Rank
+ 
+- layout: top-middle
+  name: Analysis on the Factors Attracting Startup Investment 
+  quote: >
+    Factor Analysis, K-Means Clustering, Case Based Reasoning, Logistic Regression
+
+- layout: top-middle
+  name: Korean Listed Stock Price Prediction
+  quote: >
+    Correlation Analysis, K-Means Clustering, Decision Tree, Random Forest, LSTM
