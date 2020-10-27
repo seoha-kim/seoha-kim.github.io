@@ -1,10 +1,7 @@
 - layout: top-middle
   name: NVH Diagnosis Method and Apparatus for Electric Motor <br> Korea Patent 10-2020-0022362 filled February 2020
-
   quote: >
     LSTM Auto Encoder-Decoder and CNN Model Ensemble
   description: | 
-    This project was carried out while working as an intern for Hyundai Mobis Data Science team. <br>
-    I have implemented the RCNN model, which is an ensemble of LSTM Auto Encoder and CNN model.<br>
-    I applied for a Korean patent in February 2020 with my co-researcher.
+    This project was carried out while working as an intern for Hyundai Mobis Data Science team. I have implemented the RCNN model, which is an ensemble of LSTM Auto Encoder and CNN model. I applied for a Korean patent in February 2020 with my co-researcher.
     
