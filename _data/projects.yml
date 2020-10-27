@@ -12,7 +12,7 @@
     Hyndai Mobis Projects <br>
     Numeric data, CT Calculation, Xgboost, Feature Selection, CT Simulation
   description: | 
-    I analyzed the factory CT data to examine which variables affect the OK/NG results. I selected the best-performing ML algorithm and saw how to adjust variables.
+    I analyzed the factory CT data to examine which variables affect the OK/NG results. I selected the best ML algorithm and saw how to adjust variables.
     
 - layout: top-middle
   name: Numeric data, Optimization Solder Pressing at the SMT Line
@@ -20,5 +20,5 @@
     Hyndai Mobis Projects <br>
     PCB visualization, T-Test, Apriori, XGboost, Feature Importance
   description: | 
-    I visualized the NG PCB plate, and classified the NG holes through Aprori analysis. I identified which variables affect OK/NG results for each PCB plate classification.
+    I visualized the NG PCB plate, and classified the NG holes through Aprori. I identified which variables affect the OK/NG results for each classification.
     
