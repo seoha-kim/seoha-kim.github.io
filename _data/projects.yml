@@ -4,7 +4,7 @@
     Hyndai Mobis Projects <br>
     Audio data, LSTM Auto Encoder-Decoder and CNN Model Ensemble
   description: | 
-    I have implemented the RCNN model, which is an ensemble of LSTM Auto Encoder and CNN model. I applied for a Korean patent in February 2020 with my co-researcher.
+    I have implemented the RCNN model, an ensemble of LSTM Auto Encoder and CNN model. I applied for a Korean patent in February 2020 with my co-researcher.
    
 - layout: top-middle
   name: Improving Operating Ratio through CT Pattern Analysis
@@ -12,7 +12,7 @@
     Hyndai Mobis Projects <br>
     Numeric data, CT Calculation, Xgboost, Feature Selection, CT Simulation
   description: | 
-    I examined the factory process cycle time data to see which variables affect the OK/NG results. I also selected the best-performing machine learning algorithm and analyzed how to adjust the variables.
+    I analyzed the factory CT data to examine which variables affect the OK/NG results. I selected the best-performing ML algorithm and saw how to adjust variables.
     
 - layout: top-middle
   name: Numeric data, Optimization Solder Pressing at the SMT Line
@@ -20,5 +20,5 @@
     Hyndai Mobis Projects <br>
     PCB visualization, T-Test, Apriori, XGboost, Feature Importance
   description: | 
-    I visualized the NG PCB plate, and classified the holes which occur together on the PCB plate through Aprori analysis. I identified which variables affect OK/NG results for each PCB plate classification.
+    I visualized the NG PCB plate, and classified the NG holes through Aprori analysis. I identified which variables affect OK/NG results for each PCB plate classification.
     
