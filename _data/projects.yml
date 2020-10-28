@@ -22,7 +22,7 @@
 - layout: top
   name: Predicting IQ for Children with Development Delay
   description: | 
-    __Digital Healthcare Lab__ <br>
+    __Yonsei Digital Healthcare Lab__ <br>
     *Numeric data, Correlation Analysis, XGBooost, Light GbM, Random Forest* <br>
     I used functional game play data to predict IQs for children with developmental delays.
 
