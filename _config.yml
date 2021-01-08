@@ -49,7 +49,8 @@ more_content: | # this will include new lines to allow paragraphs
    - scikit-learn
    - tensorflow-keras
    - pytorch
-   - spark (hadoop eco-system)
+   - spark
+   - tableau
    
 # Footer
 footer_show_references: false
