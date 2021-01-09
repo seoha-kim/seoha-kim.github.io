@@ -31,7 +31,7 @@ about_content: | # this will include new lines to allow paragraphs
   I have carried out many machine learning projects, mainly dealing with images and structured data. <br>
   Several audio classification and reinforcement learning projects have been carried out, too. 
   
-  Currently, I am interested in __AI for XR__,<br>
+  Currently, I am interested in __AI for XR__<br>
   
 # Education Section
 educaton_title: Education
@@ -46,11 +46,12 @@ projects_title: Projects
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
   My technical Stack is as below:
-   - scikit-learn
-   - tensorflow-keras
-   - pytorch
-   - spark
-   - tableau
+   - Scikit-learn
+   - Spark (Hadoop Eco-System)
+   - Tensorflow-Keras
+   - Pytorch
+   - Unity
+   - Tableau
    
 # Footer
 footer_show_references: false
