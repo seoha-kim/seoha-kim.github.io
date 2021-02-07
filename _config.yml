@@ -46,10 +46,9 @@ projects_title: Projects
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
   My technical Stack is as below:
-   - Scikit-learn
-   - Spark (Hadoop Eco-System)
-   - Tensorflow-Keras
    - Pytorch
+   - Scikit-learn
+   - Spark
    - Unity
    - Tableau
    
