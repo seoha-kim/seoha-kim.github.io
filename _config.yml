@@ -27,7 +27,7 @@ about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   <br> My name is Seoha Kim and I majored in Business Administration and Cognitive Science at Yonsei University.<br>
   I served as the 6th president of Yonsei Artificial Intelligence Club(YAI) <br>
-  and interested in applying <mark>AI</mark> algorithm to __HCI/IOT/XR__.<br>
+  and interested in applying __AI__ algorithm to __HCI/IOT/XR__.<br>
   I have carried out many machine learning projects, mainly dealing with images/videos and structured data. <br>
   Several audio classification and reinforcement learning projects have been carried out, too.<br>
   
