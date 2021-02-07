@@ -47,7 +47,6 @@ more_content: | # this will include new lines to allow paragraphs
    - Pytorch
    - Scikit-learn
    - Spark
-   - Unity
    - Tableau
    
 # Footer
