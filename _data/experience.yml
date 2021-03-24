@@ -3,12 +3,18 @@
   link: September 2019 - February 2020
   job_title: Data Science Team Intern
   description: | 
-    During the internship of Hyundai Mobis Data Science Team, I was mainly responsible for implementing deep learning models and designing machine learning analysis. A total of three projects were carried out, and one of them was successful in applying for a Korean patent. In addition, I researched demand forecasting, Auto ML, and interactive data visualization.
+    During the internship of Hyundai Mobis Data Science Team, I was responsible for implementing deep learning models and designing machine learning analysis. A total of three projects were carried out, and one of them was successful in applying for a Korean patent. In addition, I researched demand forecasting, Auto ML, and interactive data visualization.
 
 - layout: left
   company: Digital Healthcare Lab
   link: June 2020 - October 2020
   job_title: Undergradaute Researcher
   description: | 
-    During my undergraduate researcher period at Yonsei University Digital Healthcare Lab, I was in charge of managing research participants and modeling simple machine learning to predict IQ based on cognitive learning mobile application data. In addition, I experienced lab life by participating in research progress meetings and journal clubs.
+    During my undergraduate researcher period at Yonsei University Digital Healthcare Lab, I was responsible for modeling machine learning to predict IQ based on cognitive learning and managing research participants. In addition, I experienced lab life by participating in research progress meetings and journal clubs.
     
+ - layout: left
+  company: Plask
+  link: March 2021 - August 2021
+  job_title: Machine Learning Team Ingern
+  description: | 
+    During the internship of Plask Machine Learning Team, I was responsible for developing 3D pose evaluation. In addition, I reviewed the state of the art of pose estimation paper and experimented deep learning baseline with different backbone or optimizer.
