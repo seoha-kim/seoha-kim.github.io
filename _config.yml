@@ -7,7 +7,7 @@ darkmode: never
 
 # Personal info
 name: Seoha Kim
-title: ML Engineer
+title: Machine Learning Engineer
 email: kim-seoha@naver.com
 website: https://learning-sarah.tistory.com/
 
@@ -25,9 +25,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
+  <br><br><br>
   I majored in Business Administration and Cognitive Science at Yonsei University.<br>
   My interests focus on Deep Learning and Computer Vision.<br>
   Particularly I am interested in applying __Deep Learning__ to __3D Vision/HCI/XR__.<br>
+  <br><br><br>
   
 # Education Section
 educaton_title: Education
