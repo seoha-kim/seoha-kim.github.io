@@ -42,7 +42,7 @@ projects_title: Projects
 
 # More Section
 # more_title: A Little More About Me
-more_content: | My Technical Stack
+more_content: My Technical Stack
    - Pytorch
    - TensorFlow
    - Scikit-learn
