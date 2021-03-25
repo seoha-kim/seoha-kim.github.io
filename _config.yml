@@ -44,11 +44,11 @@ projects_title: Projects
 # more_title: A Little More About Me
 more_content: 
 My Technical Stack is as below 
-   - Pytorch
-   - TensorFlow
-   - Scikit-learn
-   - Spark
-   - Tableau
+   - Pytorch <br>
+   - TensorFlow <br>
+   - Scikit-learn <br>
+   - Spark <br>
+   - Tableau <br>
    
 # Footer
 footer_show_references: false
