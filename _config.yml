@@ -43,15 +43,15 @@ projects_title: Projects
 # More Section
 # more_title: A Little More About Me
 more_content: |
-My Technical Stack is as below 
-   - Pytorch <br>
-   - TensorFlow <br>
-   - Scikit-learn <br>
-   - Spark <br>
-   - Tableau <br>
+  My Technical Stack is as below 
+    - Pytorch <br>
+    - TensorFlow <br>
+    - Scikit-learn <br>
+    - Spark <br>
+    - Tableau <br>
    
 # Footer
-footer_show_references: false
+footer_show_references: true
 
 # Build settings
 remote_theme: sproogen/resume-theme
