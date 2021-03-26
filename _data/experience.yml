@@ -15,6 +15,6 @@
 - layout: left
   company: Plask
   link: March 2021 - Ing
-  job_title: Machine Learning Team Ingern
+  job_title: Machine Learning Team Intern
   description: | 
     During the internship of Plask Machine Learning Team, I was responsible for developing 3D pose estimation. In addition, I reviewed the state of the art of pose estimation paper and experimented deep learning baseline with various backbones or optimizers.
