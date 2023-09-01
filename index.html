@@ -268,10 +268,14 @@
     <!-- Paper video. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h2 class="title is-3">Method</h2>
+        <div class="method overview">
+          <img src="./static/images/problem.png"
+          alt="Problem statement image."/>
+          <p> <b>Problem statement.</b> </p>
+          <p> (a) Ideally, all multi-view images at a frame captures the same moment of a scene. Each frame is represented by a latent embedding. </p>
+          <p> (b) Some frames are not synchronized. Previous methods suffer from the discrepancy between the latent embedding of the frame and the actual status of the scene. </p>
+          <p> (c) Our method allows assigning correct temporal latent embeddings to videos captured with temporal gaps by introducing learnable time offsets δ for individual cameras. </p>
         </div>
       </div>
     </div>
