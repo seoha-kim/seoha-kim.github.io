@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>BakedSDF</title>
+    <title>Sync-NeRF</title>
 
     <meta name="description" content="Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -76,7 +76,7 @@
             <h2 class="col-md-12 text-center">
                 Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos <br>
                 <small>
-                    Anonymous Authors
+                    ArXiv
                 </small>
             </h2>
         </div>
@@ -86,21 +86,21 @@
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <ul class="nav nav-pills nav-justified">
                         <li>
-                            <a href="2022_BakedSDF.pdf">
+                            <a href="AAAI2024_Sync_NeRF_Generalizing_Dynamic_NeRFs_to_Unsynchronized_Videos">
                             <image src="img/syncnerf_paper_image.png" height="120px"></image>
                                 <h4><strong>Paper</strong></h4>
                             </a>
                         </li>
                         <li>
-                            <a href="https://youtu.be/fThKXZ6uDTk" target="_blank">
-                            <image src="img/youtube_icon.png" height="120px"></image>
-                                <h4><strong>Video</strong></h4>
+                            <a href="https://github.com/seoha-kim/Sync-NeRF" target="_blank">
+                            <image src="img/github_icon.png" height="120px"></image>
+                                <h4><strong>Code</strong></h4>
                             </a>
                         </li>
                         <li>
-                            <a href="#demos">
-                            <image src="img/demos-01.png" height="120px"></image>
-                                <h4><strong>Demos</strong></h4>
+                            <a href="https://yonsei-my.sharepoint.com/personal/yj_uh_o365_yonsei_ac_kr/_layouts/15/onedrive.aspx?FolderCTID=0x012000911C4E8CA673AA4EA8B6758C572327B2&id=%2Fpersonal%2Fyj_uh_o365_yonsei_ac_kr%2FDocuments%2Fvilab-drive%2FSync-NeRF">
+                            <image src="img/dataset_fox.png" height="120px"></image>
+                                <h4><strong>Dataset</strong></h4>
                             </a>
                         </li>
                     </ul>
@@ -116,7 +116,7 @@
                 </h3>
                 <!-- <image src="img/rays.jpg" class="img-responsive" alt="overview"><br> -->
                 <p class="text-justify">
-We present a method for reconstructing high-quality meshes of large unbounded real-world scenes suitable for photorealistic novel view synthesis. We first optimize a hybrid neural volume-surface scene representation designed to have well-behaved level sets that correspond to surfaces in the scene. We then bake this representation into a high-quality triangle mesh, which we equip with a simple and fast view-dependent appearance model based on spherical Gaussians. Finally, we optimize this baked representation to best reproduce the captured viewpoints, resulting in a model that can leverage accelerated polygon rasterization pipelines for real-time view synthesis on commodity hardware. Our approach outperforms previous scene representations for real-time rendering in terms of accuracy, speed, and power consumption, and produces high quality meshes that enable applications such as appearance editing and physical simulation.
+                    Recent advancements in 4D scene reconstruction using neural radiance fields (NeRF) have demonstrated the ability to represent dynamic scenes from multi-view videos. However, they fail to reconstruct the dynamic scenes and struggle to fit even the training views in unsynchronized settings. It happens because they employ a single latent embedding for a frame while the multi-view images at the frame were actually captured at different moments. To address this limitation, we introduce time offsets for individual unsynchronized videos and jointly optimize the offsets with NeRF. By design, our method is applicable for various baselines and improves them with large margins. Furthermore, finding the offsets naturally works as synchronizing the videos without manual effort. Experiments are conducted on the common Plenoptic Video Dataset and a newly built Unsynchronized Dynamic Blender Dataset to verify the performance and robustness of our method. The source code and the dataset will be released online.
                 </p>
             </div>
         </div>
@@ -139,10 +139,10 @@ We present a method for reconstructing high-quality meshes of large unbounded re
         <div class="row">
             <div class="col-md-8 col-md-offset-2" id="demos">
                 <h3>
-                    Real-Time Interactive Viewer Demos
+                    Method Overview
                 </h3>
                 <h4>
-                    Real Captured Scenes
+                    Problem Statement
                 </h4>
             </div>
         </div>
@@ -215,7 +215,7 @@ We present a method for reconstructing high-quality meshes of large unbounded re
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
-                    BakedSDF
+                    Continuous temporal embedding
                 </h3>
                 <br>
                 <image src="img/breakdown_new.png" style="width:100%;" class="img-responsive center-block" alt="overview"></image>
@@ -225,53 +225,14 @@ We present a method for reconstructing high-quality meshes of large unbounded re
                 </p>
             </div>
         </div>
-		
-		<div class="row comp-margin">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
-                    Mesh Extraction and Rendering
-                </h3>
-                <div class="b-dics" style="width: 100%">
-                    <img src="img/gardenvase_mesh_ours.jpg" alt="Mesh" />
-                    <img src="img/gardenvase_rendering.jpg" alt="Rendering" />
-                </div>
-            </div>
-        </div>
-		<br>
-		
-		<div class="row comp-margin">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="b-dics" style="width: 100%">
-                    <img src="img/mesh.014.jpg" alt="Mesh" />
-                    <img src="img/final.014.jpg" alt="Rendering" />
-                </div>
-            </div>
-        </div>
-
-
-
-
-<!--
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
-                    Related links
-                </h3>
-                <p class="text-justify">
-                  Something something? or delete. could be like mipnerf360/volsdf, something that uses spherical gaussians? idk
-                </p>
-                </p>
-            </div>
-        </div>
--->
-
+	
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
                     Acknowledgements
                 </h3>
                 <p class="text-justify">
-                The website template was borrowed from <a href="http://mgharbi.com/">Michaël Gharbi</a>.
+                The website template was borrowed from <a href="https://bakedsdf.github.io/">BakedSDF</a>.
                 </p>
             </div>
         </div>
