@@ -202,7 +202,7 @@
                 <image src="img/problem.png" style="width:100%;" alt="problem statement"></image>
                 <br>
                 <p class="text-justify">
-                    Our method bakes a hybrid VolSDF/mip-NeRF 360 scene representation into a triangle mesh, then optimizes a lightweight view-dependent appearance model to reproduce the training images. The final color of the rendered mesh is a sum of spherical Gaussian lobes (queried with the outgoing view direction) and a diffuse color. These parameters are stored per-vertex on the underlying mesh.
+                    (a) Ideally, all multi-view images at a frame captures the same moment of a scene. Each frame is represented by a latent embedding. (b) Some frames are not synchronized. Previous methods suffer from the discrepancy between the latent embedding of the frame and the actual status of the scene. (c) Our method allows assigning correct temporal latent embeddings to videos captured with temporal gaps by introducing learnable time offsets δ for individual cameras.
                 </p>
             </div>
         </div>
