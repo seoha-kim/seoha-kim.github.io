@@ -2,6 +2,7 @@
 <html>
 
 <head lang="en">
+    <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -40,7 +41,6 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
@@ -224,7 +224,9 @@
                 <image src="img/problem.png" style="width:100%;" alt="problem statement"></image>
                 <br>
                 <p class="text-justify">
-                    Ideally, all multi-view images at a frame captures the same moment of a scene. Each frame is represented by a latent embedding. Previous methods suffer from the discrepancy between the latent embedding of the frame and the actual status of the scene. However, Our method allows assigning correct temporal latent embeddings to videos captured with temporal gaps by introducing learnable time offsets \delta for individual cameras.
+                    <b>(a)</b> Ideally, all multi-view images at a frame captures the same moment of a scene. Each frame is represented by a latent embedding. 
+                    <b>(b)</b>> Some frames are not synchronized. Previous methods suffer from the discrepancy between the latent embedding of the frame and the actual status of the scene. 
+                    <b>(c)</b> Our method allows assigning correct temporal latent embeddings to videos captured with temporal gaps by introducing learnable time offsets δ for individual cameras.
                 </p>
             </div>
         </div>
@@ -238,8 +240,8 @@
                 <image src="img/embedding.png" style="width:100%;" alt="continuous temporal embedding"></image>
                 <br>
                 <p class="text-justify">
-                    We present an implicit function-based approach for the methods utilizing per-frame temporal embeddings. We add time offset $\theta_{k}$ of camera $k$ to time input $t$. $T_{θ}$ is the implicit function for mapping calibrated time into temporal embedding $z$. <br>
-                    On grid-based models, we query the embedding at the calibrated time $t_{k}$. Bilinear interpolation naturally allows continuous temporal embedding.
+                    <b>(a)</b> We present an implicit function-based approach for the methods utilizing per-frame temporal embeddings. We add time offset $\theta_{k}$ of camera $k$ to time input $t$. $T_{θ}$ is the implicit function for mapping calibrated time into temporal embedding $z$. 
+                    <b>(b)</b>> We query the embedding at the calibrated time $t_{k}$ on grid-based models. Bilinear interpolation naturally allows continuous temporal embedding.
                 </p>
             </div>
         </div>
