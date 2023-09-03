@@ -195,82 +195,22 @@
             </div>
         </div>
 
-
         <div class="row">
-            <div class="col-md-8 col-md-offset-2" id="demos">
+            <div class="col-md-8 col-md-offset-2">
                 <h3>
                     Method Overview
                 </h3>
                 <h4>
                     Problem Statement
                 </h4>
+                <br>
+                <image src="img/problem.png" style="width:100%;" alt="problem statement"></image>
+                <br>
+                <p class="text-justify">
+                    Our method bakes a hybrid VolSDF/mip-NeRF 360 scene representation into a triangle mesh, then optimizes a lightweight view-dependent appearance model to reproduce the training images. The final color of the rendered mesh is a sum of spherical Gaussian lobes (queried with the outgoing view direction) and a diffuse color. These parameters are stored per-vertex on the underlying mesh.
+                </p>
             </div>
         </div>
-
-        <div class="row">
-                <div class="col-md-4 col-md-offset-2 text-center">
-                    <ul class="nav nav-pills nav-justified">
-                        <li>
-                            <a href="https://bakedsdf.github.io/viewer/index.html?scene=https://dl.dropboxusercontent.com/s/7srlfofbiryehn6/gardenvase.glb" target="_blank">
-                            <image src="img/gardenvase.png" width="160px"></image>
-                                <h4><strong>Gardenvase</strong></h4>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://bakedsdf.github.io/viewer/index.html?scene=https://dl.dropboxusercontent.com/s/3ss5rc56bg0s9k5/bicycle.glb" target="_blank">
-                            <image src="img/bicycle.png" width="160px"></image>
-                                <h4><strong>Bicycle</strong></h4>
-                            </a>
-                        </li>
-						<li>
-                            <a href="https://bakedsdf.github.io/viewer/index.html?scene=https://dl.dropboxusercontent.com/s/jbjhvht3s6vvir2/kitchenlego.glb" target="_blank">
-                            <image src="img/kitchenlego.png" width="160px"></image>
-                                <h4><strong>Kitchen Lego</strong></h4>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://bakedsdf.github.io/viewer/index.html?scene=https://dl.dropboxusercontent.com/s/1hqrcw1ax59b34z/stump.glb" target="_blank">
-                            <image src="img/stump.png" width="160px"></image>
-                                <h4><strong>Stump</strong></h4>
-                            </a>
-                        </li>
-							<br>
-                        <li>
-                            <a href="https://bakedsdf.github.io/viewer/index.html?scene=https://dl.dropboxusercontent.com/s/6bghm2gdmgzg32n/officebonsai.glb" target="_blank">
-                            <image src="img/officebonsai.png" width="160px"></image>
-                                <h4><strong>Office Bonsai</strong></h4>
-                            </a>
-                        </li>
-						
-                        <li>
-                            <a href="https://bakedsdf.github.io/viewer/index.html?scene=https://dl.dropboxusercontent.com/s/8r83yv14c0d2wxe/fulllivingroom.glb" target="_blank">
-                            <image src="img/fulllivingroom.png" width="160px"></image>
-                                <h4><strong>Full Living Room</strong></h4>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://bakedsdf.github.io/viewer/index.html?scene=https://dl.dropboxusercontent.com/s/zw6trrwjnh56pyp/kitchencounter.glb" target="_blank">
-                            <image src="img/kitchencounter.png" width="160px"></image>
-                                <h4><strong>Kitchen Counter</strong></h4>
-							</a>
-						</li>
-						<li>
-							<style>
-							.disabled-link {
-							  pointer-events: none;
- 							  color: grey;
-							}
-							</style>
-                            <a href="https://bakedsdf.github.io/viewer/index.html?scene=https://dl.dropboxusercontent.com/s/zw6trrwjnh56pyp/kitchencounter.glb" class="disabled-link">
-                            <image src="img/flowertreehill.png" width="160px"></image>
-                                <h4 ><strong>Treehill & Flower </strong></h4>
-							</a>
-						</li>
-                    </ul>
-                </div>
-        </div>
-	
-
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -278,10 +218,12 @@
                     Continuous temporal embedding
                 </h3>
                 <br>
-                <image src="img/breakdown_new.png" style="width:100%;" class="img-responsive center-block" alt="overview"></image>
+                <image src="img/embedding.png" style="width:100%;" alt="continuous temporal embedding"></image>
                 <br>
                 <p class="text-justify">
-                    Our method bakes a hybrid VolSDF/mip-NeRF 360 scene representation into a triangle mesh, then optimizes a lightweight view-dependent appearance model to reproduce the training images. The final color of the rendered mesh is a sum of spherical Gaussian lobes (queried with the outgoing view direction) and a diffuse color. These parameters are stored per-vertex on the underlying mesh.
+                    (a) We present an implicit function-based approach for the methods utilizing per-frame temporal embeddings. We add time offset δ_{k} of camera k to time input t. T_{θ} is the implicit function for mapping calibrated time into temporal embedding z. 
+                    <br>
+                    (b) We query the embedding at the calibrated time t_{k} on grid-based models. Bilinear interpolation naturally allows continuous temporal embedding.
                 </p>
             </div>
         </div>
