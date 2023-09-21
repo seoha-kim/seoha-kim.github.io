@@ -13,7 +13,6 @@
     <!-- <base href="/"> -->
 
         <!--FACEBOOK-->
-    <!-- <meta property="og:image" content="https://seoha-kim.github.io/sync-nerf/img/teaser.png"> -->
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="682">
     <meta property="og:image:height" content="682">
@@ -26,10 +25,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Sync-NeRF" />
     <meta name="twitter:description" content="Project page for Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos." />
-    <!-- <meta name="twitter:image" content="https://seoha-kim.github.io/sync-nerf/img/teaser.png"/> -->
 
-
-<!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍸</text></svg>">
     <!-- Place favicon.ico in the root directory -->
 
@@ -46,11 +42,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
 
     <script src="js/app.js"></script>
-
-	<!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-    </script> -->
 
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
@@ -144,6 +135,7 @@
             </div>
         </div>
 
+
         <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <ul class="nav nav-pills nav-justified">
@@ -198,6 +190,7 @@
             </div>
         </div>
 
+
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
@@ -213,6 +206,7 @@
             </div>
         </div>
 
+
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
@@ -225,9 +219,12 @@
                 <image src="img/problem.png" style="width:100%;" alt="problem statement"></image>
                 <br>
                 <p class="text-justify">
-                    <b>(a)</b> Ideally, all multi-view images at a frame captures the same moment of a scene. Each frame is represented by a latent embedding. 
-                    <b>(b)</b> Some frames are not synchronized. Previous methods suffer from the discrepancy between the latent embedding of the frame and the actual status of the scene. 
-                    <b>(c)</b> Our method allows assigning correct temporal latent embeddings to videos captured with temporal gaps by introducing learnable time offsets $\delta$ for individual cameras.
+                    In an ideal situation, all multi-view images at specific frame captures the same moment of a scene. Under this assumption, each frame is represented by only one latent embedding. <br>
+
+                    But video synchornization process requires manual efforts and even if the videos are assumed to be synchronized, there can be temporal mismatch within a frame.
+                    Previous methods suffer from the discrepancy between the latent embedding of the frame and the actual status of the scene. <b>(b)</b>
+                    Comparably, <b>Sync-NeRF</b> resolves the temporal gap by introducing learnable time offsets $\delta$ for individual cameras.
+                    It works as assigning correct temporal latent embeddings to unsynchronized videos, which is equivalent to synchronizing process by shifting.
                 </p>
             </div>
         </div>
@@ -247,6 +244,7 @@
             </div>
         </div>
 	
+
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
