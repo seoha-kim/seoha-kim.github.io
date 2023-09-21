@@ -221,7 +221,7 @@
                 <p class="text-justify">
                     In an ideal situation, all multi-view images at specific frame captures the same moment of a scene. Under this assumption, each frame is represented by only one latent embedding. 
                     But video synchornization process requires manual efforts and even if the videos are assumed to be synchronized, there can be temporal mismatch within a frame. <br><br>
-                    
+
                     Previous methods suffer from the discrepancy between the latent embedding of the frame and the actual status of the scene.
                     Comparably, <b>Sync-NeRF</b> resolves the temporal gap by introducing learnable time offsets $\delta$ for individual cameras.
                     It works as assigning correct temporal latent embeddings to unsynchronized videos, which is equivalent to synchronizing process by shifting.
@@ -238,8 +238,9 @@
                 <image src="img/embedding.png" style="width:100%;" alt="continuous temporal embedding"></image>
                 <br>
                 <p class="text-justify">
-                    <b>(a)</b> We present an implicit function-based approach for the methods utilizing per-frame temporal embeddings. We add time offset $\theta_{k}$ of camera $k$ to time input $t$. $T_{θ}$ is the implicit function for mapping calibrated time into temporal embedding $z$. 
-                    <b>(b)</b> We query the embedding at the calibrated time $t_{k}$ on grid-based models. Bilinear interpolation naturally allows continuous temporal embedding.
+                    There are two approachs to represent temporal embedding. We present an implicit function-based approach for the methods utilizing per-frame temporal embeddings. We add time offset $\theta_{k}$ of camera $k$ to time input $t$. $T_{θ}$ is the implicit function for mapping calibrated time into temporal embedding $z$. 
+                    <br><br>
+                    On grid-based models, we query the embedding at the calibrated time $t_{k}$. Bilinear interpolation naturally allows continuous temporal embedding.
                 </p>
             </div>
         </div>
