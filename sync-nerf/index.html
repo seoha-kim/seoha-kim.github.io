@@ -172,7 +172,7 @@
                             type="video/mp4">
                 </video><br>
                 <p class="text-justify">
-                    The commonly used Plenoptic Video Dataset in 4D scene reconstruction contains an unsynchronized video. If we include this view in the training set, baselines fail to reconstruct the motion around the unsynchronized viewpoint. In the same settings, our method significantly outperforms.
+                    The commonly used Plenoptic Video Dataset in 4D scene reconstruction contains an unsynchronized video. If the baseline includes the unsynchronized view in the training set, it fails to reconstruct the motion around the unsynchronized view. In the same settings, our method is superior to the baseline.
                 </p>
             </div>
         </div>
@@ -201,7 +201,7 @@
                             type="video/mp4">
                 </video><br>
                 <p class="text-justify">
-                    The above videos are rendered results from the Unsynchronized Plenoptic Video Dataset whose synchronization is perturbed on purpose.
+                    To show the effectiveness of our method, we created an Unsynchronized Plenoptic Video Dataset that intentionally perturbed synchronization. In the video, the left side is the baseline and the right side is a model that applied our method to the baseline. 
                 </p>
             </div>
         </div>
@@ -219,11 +219,11 @@
                 <image src="img/problem.png" style="width:100%;" alt="problem statement"></image>
                 <br>
                 <p class="text-justify">
-                    In an ideal situation, all multi-view images at specific frame captures the same moment of a scene. Under this assumption, each frame is represented by only one latent embedding. 
-                    But video synchornization process requires manual efforts and even if the videos are assumed to be synchronized, there can be temporal mismatch within a frame. <br><br>
+                    In ideal situation, specific frame captures the same moment of the scene across the multiple camers. 
+                    However, video synchornization process requires manual efforts and even if the videos are assumed to be synchronized, there can be temporal mismatch within a frame. <br><br>
 
-                    Previous methods suffer from the discrepancy between the latent embedding of the frame and the actual status of the scene.
-                    Comparably, <b>Sync-NeRF</b> resolves the temporal gap by introducing learnable time offsets $\delta$ for individual cameras.
+                    Existing methods can be problematic when the input videos are unsynchronized, without taking into account the time deviations between training frames with the same index. 
+                    Comparably, <b>Sync-NeRF</b> resolves this problem by learning time offsets $\delta$ that models the temporal gap for each training video.
                     It works as assigning correct temporal latent embeddings to unsynchronized videos, which is equivalent to synchronizing process by shifting.
                 </p>
             </div>
@@ -232,15 +232,13 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h4>
-                    Continuous temporal embedding
+                    Our synchronized temporal embedding
                 </h4>
                 <br>
                 <image src="img/embedding.png" style="width:100%;" alt="continuous temporal embedding"></image>
                 <br>
                 <p class="text-justify">
-                    There are two approachs to represent temporal embedding. We present an implicit function-based approach for the methods utilizing per-frame temporal embeddings. We add time offset $\theta_{k}$ of camera $k$ to time input $t$. $T_{θ}$ is the implicit function for mapping calibrated time into temporal embedding $z$. 
-                    <br><br>
-                    On grid-based models, we query the embedding at the calibrated time $t_{k}$. Bilinear interpolation naturally allows continuous temporal embedding.
+                    We introduce two approaches for modeling temporal embedding in dynamic NeRF. On models using per-frame temporal embeddings, we introduce an implicit function $T_{\theta}$, which takes the time $t_k$ calibrated by the time offset $\delta_k$ as input and outputs temporal embedding $z(t_k)$. On grid-based models, we query the embedding at the calibrated time $t_k$. 
                 </p>
             </div>
         </div>
