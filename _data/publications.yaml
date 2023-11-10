@@ -1,7 +1,7 @@
 papers:
 
   - title: "Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos"
-    authors: "<b>Seoha Kim</b>, Jeongmin Bae, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
+    authors: "<b>Seoha Kim</b>, Jeongmin Bae, Youngsik Yun,<br>Hahyun Lee, Gun Bang, Youngjung Uh"
     project: "https://seoha-kim.github.io/sync-nerf"
     venue: "Preprint"
     paper_pdf: "https://arxiv.org/abs/2310.13356.pdf"
