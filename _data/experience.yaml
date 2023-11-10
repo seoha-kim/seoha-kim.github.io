@@ -1,26 +1,26 @@
 experiences:
 
 
-- place: "NAVER AI Lab"
-  time: "Dec 2022 – Jun 2023"
-  title: "Research Scientist, Intern"
-  subtitle: "Generation Research"
-  category: "work"
-
 - place: "Yonsei University"
-  time: "Mar 2021 – now"
-  title: "Ph.D. Student"
+  time: "2022 – 2023"
+  title: "Master Student"
   subtitle: "Artificial Intelligence <br>Under the supervision of Prof. Youngjung Uh."
   category: "school"
 
-- place: "ETRI"
-  time: "Jan 2019 – Feb 2019"
-  title: "Research Scientist, Intern"
-  subtitle: "AI Reasearch Lab"
+- place: "Plask"
+  time: "Mar 2021 – Aug 2021"
+  title: "AI engineer"
+  subtitle: "3D Pose Estimation Research"
   category: "work"
 
-- place: "Kwangwoon University"
-  time: "2016 - 2021"
+- place: "Hyundai Mobis "
+  time: "Sep 2019 – Jan 2020"
+  title: "Data Scientist, Intern"
+  subtitle: "Internship in Data Science Team"
+  category: "work"
+
+- place: "Yonsei University"
+  time: "2015 - 2021"
   title: "B.S. Student"
-  subtitle: "Electronics and Communications Engineering"
+  subtitle: "Business Administration"
   category: "school"

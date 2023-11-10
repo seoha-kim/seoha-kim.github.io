@@ -1,31 +1,13 @@
 papers:
 
-  - title: "BallGAN: 3D-aware Image Synthesis with a Spherical Background"
-    authors: "<b>Minjung Shin</b>, Yunji Seo, Jeongmin Bae, Young Sun Choi, Hyunsu Kim, Hyeran Byun, Youngjung Uh"
-    project: "https://minjung-s.github.io/ballgan"
-    venue: "ICCV 2023"
-    paper_pdf: "https://arxiv.org/pdf/2301.09091.pdf"
+  - title: "Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos"
+    authors: "<b>Seoha Kim</b>, Jeongmin Bae, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
+    project: "https://seoha-kim.github.io/sync-nerf"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2310.13356.pdf"
     selected: y
-    image: "/assets/publications/2023_ICCV/teaser.png"
+    image: "/assets/publications/2023_Preprint/teaser.png"
 
-  - title: "Source-free Subject Adaptation for EEG-based Visual Recognition"
-    authors: "Pilhyeon Lee, Seogkyu Jeon, Sunhee Hwang, <b>Minjung Shin</b>, Hyeran Byun"
-    venue: "BCI 2023"
-    paper_pdf: "https://arxiv.org/pdf/2301.08448.pdf"
-    selected: y
-
-  - title: "Inter-subject contrastive learning for subject adaptive eeg-based visual recognition"
-    authors: "Pilhyeon Lee, Sunhee Hwang, Jewook Lee, <b>Minjung Shin</b>, Seogkyu Jeon, Hyeran Byun"
-    venue: "BCI 2022"
-    paper_pdf: "https://arxiv.org/pdf/2202.02901.pdf"
-    selected: y
-
-  - title: "Detectable Object-Sizes Range Estimation Based Multi-Task Cascaded Convolutional Neural Networks in the Vehicle Environments"
-    authors: "Whui Kim, Hyunkyun Choi, <b>Minjung Shin</b>"
-    venue: "VTC 2019-fall"
-    paper_pdf: "https://ieeexplore.ieee.org/document/8890976"
-    selected: y
-    
 #   - title: "StyleMapGAN: Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing"
 #     authors: "<b>Hyunsu Kim</b>, Yunjey Choi, Junho Kim, Sungjoo Yoo, Youngjung Uh"
 #     venue: "CVPR 2021"
