@@ -1,1 +1,0 @@
-# seoha-kim.github.io
