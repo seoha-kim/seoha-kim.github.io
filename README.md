@@ -1,1 +1,0 @@
-# minjung-s.github.io
