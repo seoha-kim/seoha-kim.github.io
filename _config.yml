@@ -36,6 +36,9 @@ googlescholar_username: JycrPi8AAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  <br>
+  <br>
+  <br>
   Hi, my name is Seoha Kim and I am a AI Reasearcher. <br>
   I am master student of <a href="">Visual Intelligence Laboratory</a> in Yonsei University.<br>
   Currently, i am interested in <b>4D representation</b> and <b>Multimodal learning</b>. <br>
