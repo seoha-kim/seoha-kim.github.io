@@ -34,15 +34,12 @@ googlescholar_username: JycrPi8AAAAJ
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+Hi, my name is Seoha Kim and I am a AI Reasearcher. <br>
+I am master student of <a href="https://vilab.yonsei.ac.kr/">Visual Intelligence Laboratory</a> in Yonsei University.<br>
+Currently, i am interested in <b>4D representation</b> and <b>Multimodal learning</b>. <br>
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    # - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
