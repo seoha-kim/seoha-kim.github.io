@@ -1,6 +1,5 @@
-*.gem
-.bundle
-.sass-cache
-_site
-*.code-workspace
-vendor
+.DS_Store
+*/.DS_Store
+.jekyll-cache
+_site/*
+_snap_md5.txt
