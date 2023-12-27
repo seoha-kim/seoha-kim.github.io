@@ -6,6 +6,7 @@ papers:
     project: "https://seoha-kim.github.io/sync-nerf"
     code: "https://github.com/seoha-kim/Sync-NeRF"
     data: "http://drive.google.com/drive/folders/1wvLtucVrmFf7fj-kWr-HMk3boaI46cIX?usp=sharing"
+    poster: "https://drive.google.com/file/d/1brWQBLljul7b28ZSZMQXCl0Gg9kOYtEA/view?usp=sharing"
     venue: "AAAI 2024"
     selected: y
     image: "/assets/publications/2023_Preprint/teaser.png"
