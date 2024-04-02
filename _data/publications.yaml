@@ -10,14 +10,14 @@ papers:
     image: "/assets/publications/e-d3dgs_preview.png"
 
   - title: "Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos"
-  authors: "<b>Seoha Kim<sup>‡</sup></b>, Jeongmin Bae<sup>‡</sup>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
-  paper_pdf: "https://arxiv.org/abs/2310.13356.pdf"
-  project: "https://seoha-kim.github.io/sync-nerf"
-  code: "https://github.com/seoha-kim/Sync-NeRF"
-  data: "http://drive.google.com/drive/folders/1wvLtucVrmFf7fj-kWr-HMk3boaI46cIX?usp=sharing"
-  venue: "AAAI 2024"
-  selected: y
-  image: "/assets/publications/sync-nerf_preview.png"
+    authors: "<b>Seoha Kim<sup>‡</sup></b>, Jeongmin Bae<sup>‡</sup>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
+    paper_pdf: "https://arxiv.org/abs/2310.13356.pdf"
+    project: "https://seoha-kim.github.io/sync-nerf"
+    code: "https://github.com/seoha-kim/Sync-NeRF"
+    data: "http://drive.google.com/drive/folders/1wvLtucVrmFf7fj-kWr-HMk3boaI46cIX?usp=sharing"
+    venue: "AAAI 2024"
+    selected: y
+    image: "/assets/publications/sync-nerf_preview.png"
 
   # - title: "StyleMapGAN: Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing"
   #   authors: "<b>Hyunsu Kim</b>, Yunjey Choi, Junho Kim, Sungjoo Yoo, Youngjung Uh"
