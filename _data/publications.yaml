@@ -1,6 +1,6 @@
 papers:
 
-    - title: "Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos"
+    - title: "Per-Gaussian Embedding based Deformation for Deformable 3D Gaussian Splatting"
       authors: "Jeongmin Bae<sup>‡</sup>, <b>Seoha Kim<sup>‡</sup></b>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
       paper_pdf: ""
       project: "https://JeongminB.github.io/e-d3dgs"
