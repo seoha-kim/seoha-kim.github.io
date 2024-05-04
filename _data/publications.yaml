@@ -5,7 +5,7 @@ papers:
     paper_pdf: ""
     project: "https://JeongminB.github.io/e-d3dgs"
     code: "https://github.com/JeongminB/E-D3DGS"
-    venue: "Preprint"
+    venue: "Sumitted to ECCV 2024"
     selected: y
     image: "/assets/publications/e-d3dgs_preview.png"
 
