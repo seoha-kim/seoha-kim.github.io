@@ -1,8 +1,17 @@
 papers:
 
+  - title: "Point-wise Training of Language Embedding Field for Open-vocabulary 3D Segmentation"
+    authors: "Hyunjee Lee<sup>‡</sup>, Youngsik Yun<sup>‡</sup>, <b>Seoha Kim</b>, Jeongmin Bae, Youngjung Uh"
+    # paper_pdf: ""
+    # project: "https://JeongminB.github.io/e-d3dgs"
+    # code: "https://github.com/JeongminB/E-D3DGS"
+    venue: "Sumitted to NeurIPS 2024"
+    selected: n
+    image: "/assets/publications/lerf_preview.jpg"
+
   - title: "Per-Gaussian Embedding based Deformation for Deformable 3D Gaussian Splatting"
     authors: "Jeongmin Bae<sup>‡</sup>, <b>Seoha Kim<sup>‡</sup></b>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
-    paper_pdf: ""
+    paper_pdf: "https://arxiv.org/abs/2404.03613"
     project: "https://JeongminB.github.io/e-d3dgs"
     code: "https://github.com/JeongminB/E-D3DGS"
     venue: "Sumitted to ECCV 2024"
