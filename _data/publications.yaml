@@ -2,9 +2,9 @@ papers:
 
   - title: "Point-wise Training of Language Embedding Field for Open-vocabulary 3D Segmentation"
     authors: "Hyunjee Lee<sup>‡</sup>, Youngsik Yun<sup>‡</sup>, <b>Seoha Kim</b>, Jeongmin Bae, Youngjung Uh"
-    # paper_pdf: ""
-    # project: "https://JeongminB.github.io/e-d3dgs"
-    # code: "https://github.com/JeongminB/E-D3DGS"
+    paper_pdf: ""
+    project: ""
+    code: ""
     venue: "Sumitted to NeurIPS 2024"
     selected: n
     image: "/assets/publications/open3ds_preview.jpg"
