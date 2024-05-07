@@ -7,7 +7,7 @@ papers:
     # code: "https://github.com/JeongminB/E-D3DGS"
     venue: "Sumitted to NeurIPS 2024"
     selected: n
-    image: "/assets/publications/lerf_preview.jpg"
+    image: "/assets/publications/open3ds_preview.jpg"
 
   - title: "Per-Gaussian Embedding based Deformation for Deformable 3D Gaussian Splatting"
     authors: "Jeongmin Bae<sup>‡</sup>, <b>Seoha Kim<sup>‡</sup></b>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
