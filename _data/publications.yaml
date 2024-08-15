@@ -20,7 +20,7 @@ papers:
     image: "/assets/publications/sync-nerf_preview.png"
 
   - title: "Rethinking Open-Vocabulary Segmentation of Radiance Fields in 3D Space"
-    authors: "Hyunjee Lee, Youngsik Yun, Jeongmin Bae, <b>Seoha Kim</b>, Youngjung Uh†"
+    authors: "Hyunjee Lee<sup>‡</sup>, Youngsik Yun<sup>‡</sup>, Jeongmin Bae, <b>Seoha Kim</b>, Youngjung Uh"
     paper_pdf: "https://arxiv.org/abs/2408.07416"
     project: "https://hyunji12.github.io/Open3DRF/"
     # code: "https://github.com/seoha-kim/Sync-NeRF"
