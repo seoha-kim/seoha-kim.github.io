@@ -23,8 +23,7 @@ papers:
     authors: "Hyunjee Lee<sup>‡</sup>, Youngsik Yun<sup>‡</sup>, Jeongmin Bae, <b>Seoha Kim</b>, Youngjung Uh"
     paper_pdf: "https://arxiv.org/abs/2408.07416"
     project: "https://hyunji12.github.io/Open3DRF/"
-    # code: "https://github.com/seoha-kim/Sync-NeRF"
-    # data: "http://drive.google.com/drive/folders/1wvLtucVrmFf7fj-kWr-HMk3boaI46cIX?usp=sharing"
+    # code: "https://github.com/hyunji12/Open3DRF"
     venue: "Under Review"
     selected: y
     image: "/assets/publications/open3drf_preview.png"
