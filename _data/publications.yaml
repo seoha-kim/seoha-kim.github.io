@@ -33,7 +33,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2411.17044"
     venue: "Under Review"
     selected: y
-    image: "/assets/publications/scaff4d_preview.png"
+    image: "/assets/publications/scaff4d_preview.PNG"
 
   - title: "Rethinking Open-Vocabulary Segmentation of Radiance Fields in 3D Space"
     authors: "Hyunjee Lee<sup>‡</sup>, Youngsik Yun<sup>‡</sup>, Jeongmin Bae, <b>Seoha Kim</b>, Youngjung Uh"
