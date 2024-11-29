@@ -28,6 +28,13 @@ papers:
     selected: y
     image: "/assets/publications/sync-4drf_preview.jpg"
 
+  - title: "4D Scaffold Gaussian Splatting for Efficient Dynamic Scene Reconstruction"
+    authors: "Woong Oh Cho, In Cho, <b>Seoha Kim</b>, Jeongmin Bae, Youngjung Uh, Seon Joo Kim"
+    paper_pdf: "https://arxiv.org/abs/2411.17044"
+    venue: "Under Review"
+    selected: y
+    image: "/assets/publications/scaff4d_preview.png"
+
   - title: "Rethinking Open-Vocabulary Segmentation of Radiance Fields in 3D Space"
     authors: "Hyunjee Lee<sup>‡</sup>, Youngsik Yun<sup>‡</sup>, Jeongmin Bae, <b>Seoha Kim</b>, Youngjung Uh"
     paper_pdf: "https://arxiv.org/abs/2408.07416"
