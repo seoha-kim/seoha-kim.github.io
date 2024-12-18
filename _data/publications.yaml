@@ -1,4 +1,18 @@
 papers:
+  - title: "4D Scaffold Gaussian Splatting for Efficient Dynamic Scene Reconstruction"
+    authors: "Woong Oh Cho, In Cho, <b>Seoha Kim</b>, Jeongmin Bae, Youngjung Uh, Seon Joo Kim"
+    paper_pdf: "https://arxiv.org/abs/2411.17044"
+    venue: "Under Review"
+    selected: y
+    image: "/assets/publications/scaff4d_preview.PNG"
+
+  - title: "Rethinking Open-Vocabulary Segmentation of Radiance Fields in 3D Space"
+    authors: "Hyunjee Lee<sup>‡</sup>, Youngsik Yun<sup>‡</sup>, Jeongmin Bae, <b>Seoha Kim</b>, Youngjung Uh"
+    paper_pdf: "https://arxiv.org/abs/2408.07416"
+    project: "https://hyunji12.github.io/Open3DRF/"
+    venue: "AAAI 2025"
+    selected: y
+    image: "/assets/publications/open3drf_preview.png"
 
   - title: "Per-Gaussian Embedding based Deformation for Deformable 3D Gaussian Splatting"
     authors: "Jeongmin Bae<sup>‡</sup>, <b>Seoha Kim<sup>‡</sup></b>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
@@ -9,6 +23,13 @@ papers:
     selected: y
     image: "/assets/publications/e-d3dgs_preview.png"
 
+  - title: "Optimizing Dynamic NeRF and 3DGS with No Video Synchronization"
+    authors: "<b>Seoha Kim<sup>‡</sup></b>, Jeongmin Bae<sup>‡</sup>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
+    paper_pdf: "https://openreview.net/forum?id=RQutkn4V9I"
+    venue: "ECCV 2024 Wild3D Workshop"
+    selected: y
+    image: "/assets/publications/sync-4drf_preview.jpg"
+
   - title: "Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos"
     authors: "<b>Seoha Kim<sup>‡</sup></b>, Jeongmin Bae<sup>‡</sup>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
     paper_pdf: "https://arxiv.org/abs/2310.13356.pdf"
@@ -18,29 +39,3 @@ papers:
     venue: "AAAI 2024"
     selected: y
     image: "/assets/publications/sync-nerf_preview.png"
-
-  - title: "Optimizing Dynamic NeRF and 3DGS with No Video Synchronization"
-    authors: "<b>Seoha Kim<sup>‡</sup></b>, Jeongmin Bae<sup>‡</sup>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
-    paper_pdf: "https://openreview.net/forum?id=RQutkn4V9I"
-    # project: "https://seoha-kim.github.io/sync-nerf"
-    # code: "https://github.com/seoha-kim/Sync-NeRF"
-    venue: "ECCV 2024 Wild3D Workshop"
-    selected: y
-    image: "/assets/publications/sync-4drf_preview.jpg"
-
-  - title: "Rethinking Open-Vocabulary Segmentation of Radiance Fields in 3D Space"
-    authors: "Hyunjee Lee<sup>‡</sup>, Youngsik Yun<sup>‡</sup>, Jeongmin Bae, <b>Seoha Kim</b>, Youngjung Uh"
-    paper_pdf: "https://arxiv.org/abs/2408.07416"
-    project: "https://hyunji12.github.io/Open3DRF/"
-    # code: "https://github.com/hyunji12/Open3DRF"
-    venue: "AAAI 2025"
-    selected: y
-    image: "/assets/publications/open3drf_preview.png"
-
-  - title: "4D Scaffold Gaussian Splatting for Efficient Dynamic Scene Reconstruction"
-    authors: "Woong Oh Cho, In Cho, <b>Seoha Kim</b>, Jeongmin Bae, Youngjung Uh, Seon Joo Kim"
-    paper_pdf: "https://arxiv.org/abs/2411.17044"
-    venue: "Under Review"
-    selected: y
-    image: "/assets/publications/scaff4d_preview.PNG"
-
