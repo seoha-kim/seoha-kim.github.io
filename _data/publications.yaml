@@ -1,5 +1,5 @@
 papers:
-  - title: "4D Scaffold Gaussian Splatting for Efficient Dynamic Scene Reconstruction"
+  - title: "Efficient 4D Scaffold Gaussian Splatting with Dynamic‑Aware Anchor Growing"
     authors: "Woong Oh Cho, In Cho, <b>Seoha Kim</b>, Jeongmin Bae, Youngjung Uh, Seon Joo Kim"
     paper_pdf: "https://arxiv.org/abs/2411.17044"
     venue: "Under Review"
