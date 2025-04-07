@@ -1,7 +1,12 @@
 experiences:
+- place: "ETRI"
+  time: "2024.02 - 2025.1"
+  title: "Post-Master's Research Fellow"
+  subtitle: "Dynamic Scene Reconstruction"
+  category: "school"
 
 - place: "ETRI"
-  time: "2023.01 - Present"
+  time: "2023.1 - 2024.6"
   title: "Academic-Research Cooperation"
   subtitle: "Dynamic Scene Reconstruction Research"
   category: "work"
