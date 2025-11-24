@@ -2,6 +2,7 @@ papers:
   - title: "Efficient 4D Scaffold Gaussian Splatting with Dynamic‑Aware Anchor Growing"
     authors: "Woong Oh Cho, In Cho, <b>Seoha Kim</b>, Jeongmin Bae, Youngjung Uh, Seon Joo Kim"
     paper_pdf: "https://arxiv.org/abs/2411.17044"
+    code: "https://github.com/raikuma/4D-Scaffold-GS" 
     venue: "AAAI 2026"
     selected: y
     image: "/assets/publications/scaff4d_preview.PNG"
@@ -10,6 +11,7 @@ papers:
     authors: "Youngsik Yun, Jeongmin Bae, Hyunseung Son, <b>Seoha Kim</b>, Hahyun Lee, Gun Bang, Youngjung Uh"
     paper_pdf: "https://arxiv.org/abs/2505.01235"
     project: "https://bbangsik13.github.io/OR2/"
+    code: "https://github.com/bbangsik13/OR2"
     venue: "SIGGRAPH 2025"
     selected: y
     image: "/assets/publications/online_preview.PNG"
