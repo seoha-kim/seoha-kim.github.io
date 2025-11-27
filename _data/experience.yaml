@@ -1,12 +1,12 @@
 experiences:
 - place: "University of Melbourne"
-  time: "2025 -"
+  time: "2026.2 -"
   title: "PhD Student"
   subtitle: "Computing and Information Systems"
   category: "school"
 
 - place: "ETRI"
-  time: "2024.02 - 2025.1"
+  time: "2025.02 - 2025.11"
   title: "Post-Master's Research Fellow"
   subtitle: "Dynamic Scene Reconstruction Research"
   category: "school"
@@ -24,7 +24,7 @@ experiences:
   category: "work"
 
 - place: "Yonsei University"
-  time: "2022 – 2024"
+  time: "2022.3 – 2024.8"
   title: "Master"
   subtitle: "Artificial Intelligence"
   category: "school"
@@ -42,7 +42,7 @@ experiences:
   category: "work"
 
 - place: "Yonsei University"
-  time: "2015 - 2021"
+  time: "2015.3 - 2021.2"
   title: "Bachelor"
   subtitle: "Business Administration"
   category: "school"
