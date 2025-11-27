@@ -1,7 +1,7 @@
 experiences:
 - place: "University of Melbourne"
   time: "2025 -"
-  title: "Ph.D Student"
+  title: "PhD Student"
   subtitle: "Computing and Information Systems"
   category: "school"
 
@@ -25,7 +25,7 @@ experiences:
 
 - place: "Yonsei University"
   time: "2022 – 2024"
-  title: "MS Student"
+  title: "Master"
   subtitle: "Artificial Intelligence"
   category: "school"
 
@@ -37,12 +37,12 @@ experiences:
 
 - place: "Hyundai Mobis"
   time: "2019.9 – 2020.2"
-  title: "Data Scientist, Intern"
+  title: "Data Scientist Intern"
   subtitle: "Internship in Data Science Team"
   category: "work"
 
 - place: "Yonsei University"
   time: "2015 - 2021"
-  title: "B.A. Student"
+  title: "Bachelor"
   subtitle: "Business Administration"
   category: "school"
