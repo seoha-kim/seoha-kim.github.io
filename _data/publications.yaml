@@ -33,7 +33,7 @@ papers:
     selected: y
     image: "/assets/publications/open3drf_preview.png"
 
-  - title: "Per-Gaussian Embedding based Deformation for Deformable 3D Gaussian Splatting"
+  - title: "E-D3DGS: Per-Gaussian Embedding based Deformation for Deformable 3D Gaussian Splatting"
     authors: "Jeongmin Bae<sup>‡</sup>, <b>Seoha Kim<sup>‡</sup></b>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
     paper_pdf: "https://arxiv.org/abs/2404.03613"
     project: "https://JeongminB.github.io/e-d3dgs"
