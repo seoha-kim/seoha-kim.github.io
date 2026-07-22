@@ -1,7 +1,16 @@
 papers:
+  - title: "Hand-4DGS: Feed-Forward 3D Gaussian Splatting for 4D Hand Reconstruction from Egocentric Videos"
+    authors: "Jeongmin Bae<sup>‡</sup>, Seoha Kim<sup>‡</sup>, Marc Pollefeys, Mahdi Rad, Youngjung Uh, Taein Kwon"
+    paper_pdf: "https://arxiv.org/abs/2606.19156"
+    project: "https://jeongminb.github.io/hand-4dgs/" 
+    venue: "Preprint"
+    selected: y
+    image: "/assets/publications/hand4dgs_preview.png"
+
   - title: "Efficient 4D Scaffold Gaussian Splatting with Dynamic‑Aware Anchor Growing"
     authors: "Woong Oh Cho, In Cho, <b>Seoha Kim</b>, Jeongmin Bae, Youngjung Uh, Seon Joo Kim"
     paper_pdf: "https://arxiv.org/abs/2411.17044"
+    project: "https://raikuma.github.io/4D-Scaffold-GS-Page/"
     code: "https://github.com/raikuma/4D-Scaffold-GS" 
     venue: "AAAI 2026"
     selected: y
