@@ -1,50 +1,64 @@
-:root { color-scheme: light; }
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; background: #fff; color: #181818; font: 16px/1.45 Arial, Helvetica, sans-serif; }
-a { color: #1772ad; text-decoration: none; }
-a:hover { text-decoration: underline; }
-a:focus-visible { outline: 2px solid #1772ad; outline-offset: 3px; }
-.page { width: min(100% - 40px, 800px); margin: 0 auto; padding: 28px 0 60px; }
-.intro { display: grid; grid-template-columns: minmax(0, 1fr) 232px; gap: 35px; align-items: center; margin-bottom: 54px; }
-.intro h1 { font-size: 32px; line-height: 1.2; font-weight: 400; text-align: center; margin: 0 0 15px; }
-.intro p { margin: 0 0 13px; }
-.profile-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0; margin-top: 14px; }
-.profile-links a + a::before { content: '/'; color: #777; margin: 0 8px; }
-.portrait { width: 232px; height: 232px; border-radius: 50%; object-fit: cover; object-position: center; }
-.section { margin-top: 38px; }
-h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 24px; line-height: 1.3; font-weight: 400; margin: 0 0 15px; }
-.research-intro { margin: 0 0 16px; }
-.equal-note { color: #555; font-size: 14px; margin: -5px 0 18px; }
-.publication-list { display: grid; gap: 26px; }
-.publication { display: grid; grid-template-columns: 160px minmax(0, 1fr); column-gap: 24px; align-items: start; }
-.publication-image { display: block; width: 160px; height: 115px; overflow: hidden; }
-.publication-image img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
-.publication-details { min-width: 0; }
-.publication-title { font-weight: 600; }
-.authors { margin-top: 3px; }
-.authors b, .authors strong { font-weight: 700; }
-.authors sup { font-size: .8em; line-height: 0; }
-.venue { margin-top: 3px; font-style: italic; }
-.publication-links { display: flex; flex-wrap: wrap; margin-top: 3px; }
-.publication-links a + a::before { content: '/'; color: #777; margin: 0 6px; }
-.vitae { margin-top: 50px; }
-.experience-list { list-style: none; margin: 0; padding: 0; }
-.experience { padding: 7px 0 12px; }
-.experience-main { display: flex; justify-content: space-between; gap: 20px; }
-.experience-time, .experience-detail { color: #555; }
-.footer { color: #666; font-size: 14px; margin-top: 52px; }
-@media (max-width: 650px) {
-  .page { width: min(100% - 32px, 800px); padding-top: 24px; }
-  .intro { grid-template-columns: 1fr; gap: 22px; margin-bottom: 42px; }
-  .portrait { grid-row: 1; justify-self: center; width: 190px; height: 190px; }
-  .publication { grid-template-columns: 115px minmax(0, 1fr); gap: 14px; }
-  .publication-image { width: 115px; height: 95px; }
-  .publication-list { gap: 28px; }
+/* Homepage layout adapted from Jon Barron's public website. */
+@font-face {
+  font-family: 'Lato'; font-style: normal; font-weight: 400; font-display: block;
+  src: url(https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
 }
-@media (max-width: 430px) {
-  .publication { grid-template-columns: 1fr; }
-  .publication-image { width: 160px; height: 112px; margin-bottom: 8px; }
-  .experience-main { display: block; }
-  .experience-time { display: block; }
+@font-face {
+  font-family: 'Lato'; font-style: normal; font-weight: 700; font-display: block;
+  src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato'; font-style: italic; font-weight: 400; font-display: block;
+  src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+}
+:root {
+  --bg: #ffffff; --text: #000000; --text-muted: #555555;
+  --accent: #1772d0; --accent-hover: #f09228; --highlight-bg: #ffffd0;
+  --font-sans: 'Lato', Helvetica, Arial, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: var(--font-sans); font-size: 14px;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+a { color: var(--accent); text-decoration: none; }
+a:focus, a:hover { color: var(--accent-hover); text-decoration: none; }
+h2 { margin: 0; font-weight: 400; font-size: 22px; }
+.page { width: 100%; max-width: 816px; margin: 0 auto; padding: 8px; }
+.bio { display: flex; align-items: center; }
+.bio-text { width: 63%; padding: 2.5%; }
+.bio-photo { width: 37%; padding: 2.5%; }
+.bio-photo img {
+  width: 100%; height: auto; display: block; object-fit: cover; border-radius: 50%;
+}
+.name { padding-top: 20px; margin: 0; font-weight: 400; font-size: 32px; text-align: center; }
+.bio-links { text-align: center; color: var(--text-muted); }
+.section-header { padding: 16px; }
+.papers { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
+.paper { display: grid; grid-template-columns: 192px minmax(0, 1fr); align-items: center; }
+.paper-media { padding: 16px; }
+.paper-info { padding: 8px; }
+.papertitle { font-size: inherit; font-weight: 700; }
+.paper-links { color: var(--text-muted); }
+.paper-authors { text-wrap: balance; }
+.paper-authors a, .paper-authors strong, .paper-authors b { white-space: nowrap; }
+.paper-authors sup { line-height: 0; font-size: .8em; }
+.one { width: 160px; height: 160px; position: relative; }
+.one a, .one img { display: block; width: 100%; height: 100%; }
+.one img { object-fit: contain; }
+.site-footer { text-align: right; font-size: 13px; color: var(--text-muted); margin-top: 18px; }
+@media (max-width: 640px) {
+  .page { padding: 0; }
+  .bio { flex-direction: column-reverse; }
+  .bio-text { width: 100%; padding: 8px 16px; }
+  .bio-photo { width: 100%; padding: 20px 16px 0; text-align: center; }
+  .bio-photo img { width: 148px; margin: 0 auto; }
+  .name { padding-top: 8px; font-size: 28px; }
+  .paper { grid-template-columns: 124px minmax(0, 1fr); }
+  .paper-media { padding: 12px 8px 12px 12px; }
+  .paper-info { padding: 10px 12px 10px 6px; }
+  .one { width: 104px; height: 104px; }
+  .site-footer { padding: 0 16px; }
 }
