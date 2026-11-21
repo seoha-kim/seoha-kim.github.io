@@ -1,6 +1,6 @@
 papers:
   - title: "Hand-4DGS: Feed-Forward 3D Gaussian Splatting for 4D Hand Reconstruction from Egocentric Videos"
-    authors: "Jeongmin Bae<sup>‡</sup>, <b>Seoha Kim</b><sup>‡</sup>, Marc Pollefeys, Mahdi Rad, Youngjung Uh, Taein Kwon"
+    authors: "Jeongmin Bae<sup>*</sup>, <b>Seoha Kim</b><sup>*</sup>, Marc Pollefeys, Mahdi Rad, Youngjung Uh, Taein Kwon"
     paper_pdf: "https://arxiv.org/abs/2606.19156"
     venue: "Preprint"
     selected: y
@@ -25,7 +25,7 @@ papers:
     image: "/assets/publications/online_preview.PNG"
 
   - title: "Rethinking Open-Vocabulary Segmentation of Radiance Fields in 3D Space"
-    authors: "Hyunjee Lee<sup>‡</sup>, Youngsik Yun<sup>‡</sup>, Jeongmin Bae, <b>Seoha Kim</b>, Youngjung Uh"
+    authors: "Hyunjee Lee<sup>*</sup>, Youngsik Yun<sup>*</sup>, Jeongmin Bae, <b>Seoha Kim</b>, Youngjung Uh"
     paper_pdf: "https://arxiv.org/abs/2408.07416"
     project: "https://hyunji12.github.io/Open3DRF/"
     venue: "AAAI 2025"
@@ -33,7 +33,7 @@ papers:
     image: "/assets/publications/open3drf_preview.png"
 
   - title: "E-D3DGS: Per-Gaussian Embedding based Deformation for Deformable 3D Gaussian Splatting"
-    authors: "Jeongmin Bae<sup>‡</sup>, <b>Seoha Kim<sup>‡</sup></b>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
+    authors: "Jeongmin Bae<sup>*</sup>, <b>Seoha Kim<sup>*</sup></b>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
     paper_pdf: "https://arxiv.org/abs/2404.03613"
     project: "https://JeongminB.github.io/e-d3dgs"
     code: "https://github.com/JeongminB/E-D3DGS"
@@ -42,14 +42,14 @@ papers:
     image: "/assets/publications/e-d3dgs_preview.png"
 
   - title: "Optimizing Dynamic NeRF and 3DGS with No Video Synchronization"
-    authors: "<b>Seoha Kim<sup>‡</sup></b>, Jeongmin Bae<sup>‡</sup>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
+    authors: "<b>Seoha Kim<sup>*</sup></b>, Jeongmin Bae<sup>*</sup>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
     paper_pdf: "https://openreview.net/forum?id=RQutkn4V9I"
     venue: "ECCV 2024 Wild3D Workshop"
     selected: y
     image: "/assets/publications/sync-4drf_preview.jpg"
 
   - title: "Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos"
-    authors: "<b>Seoha Kim<sup>‡</sup></b>, Jeongmin Bae<sup>‡</sup>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
+    authors: "<b>Seoha Kim<sup>*</sup></b>, Jeongmin Bae<sup>*</sup>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
     paper_pdf: "https://arxiv.org/abs/2310.13356.pdf"
     project: "https://seoha-kim.github.io/sync-nerf"
     code: "https://github.com/seoha-kim/Sync-NeRF"
