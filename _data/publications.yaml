@@ -42,7 +42,7 @@ papers:
     image: "/assets/publications/e-d3dgs_preview.png"
 
   - title: "Optimizing Dynamic NeRF and 3DGS with No Video Synchronization"
-    authors: "<b>Seoha Kim<sup>*</sup></b>, Jeongmin Bae<sup>*</sup>, Youngsik Yun, Hahyun Lee, Gun Bang, Youngjung Uh"
+    authors: "<b>Seoha Kim<sup>*</sup></b>, Jeongmin Bae<sup>*</sup>, Youngsik Yun, HyunSeung Son, Hahyun Lee, Gun Bang, Youngjung Uh"
     paper_pdf: "https://openreview.net/forum?id=RQutkn4V9I"
     venue: "ECCV 2024 Wild3D Workshop"
     selected: y
