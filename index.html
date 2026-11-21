@@ -2,104 +2,61 @@
 layout: default
 title: Home
 ---
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
-  <h4>About</h4>
-<p>My research focuses on interpreting human behavior and social interactions from audiovisual observations, with interests in theory of mind (ToM), nonverbal behavior modeling, and social dynamics understanding and prediction. In the long term, I hope to develop socially intelligent embodied agents, such as humanoid robots, that can consider both physical and social contexts and collaborate with people in everyday life.</p>
-  
-<p>Previously, I received my Master's degree from Yonsei University under the supervision of <a href="https://vilab.yonsei.ac.kr/members/professor">Prof. Youngjung Uh</a>, 
-  where I focused on dynamic 3D scene reconstruction using 3DGS and NeRF.
-I also collaborated with <a href="https://taeinkwon.com/">Taein Kwon</a> on dynamic 3D hand reconstruction.</div>
-
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
-  <h4>Publications</h4>
-
-  <!-- /<p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/> -->
-  <sup>‡</sup> indicates equal contribution.
-  </p>
-
-  <ul class="tab-nav">
-    <!-- <li><div class="button active" data-ref="#papers-selected">Selected</div></li> -->
-    <li><div class="button active" data-ref="#papers-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-
-    <div class="tab-pane active" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-      <div class="paper">
-        <div class="row" style="display: flex;align-items: center;">
-          <div class="four columns">
-            <div class="figure">
-              <img src="{{ paper.image }}" width="100%">
-            </div>
-          </div>
-          <div class="eight columns">
-            <p class="title"><b>{{ paper.title }}</b></p>
-            <p><sub>{{ paper.authors }}</sub></p>
-            <p><sub><i>{{ paper.venue }}</sub></i></p>
-            <div class="paper-buttons">
-              {% if paper.project %}
-                <a class="button" href="{{ paper.project }}" target="_blank">Project</a>
-              {% endif %}
-
-              {% if paper.paper_pdf %}
-                <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-              {% endif %}
-
-              {% if paper.slides %}
-                <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-              {% endif %}
-
-              {% if paper.poster %}
-                <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-              {% endif %}
-
-              {% if paper.video %}
-                <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-              {% endif %}
-
-              {% if paper.code %}
-                <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-              {% endif %}
-
-              {% if paper.data %}
-                <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-              {% endif %}
-            </div>
-          </div>
-          </div>
-        </div>
-      {% endfor %}
+<header class="intro">
+  <div class="intro-copy">
+    <h1>{{ site.data.main_info.name }}</h1>
+    <p>I am a Graduate Researcher at the University of Melbourne. My research focuses on interpreting human behavior and social interactions from audiovisual observations, with interests in theory of mind (ToM), nonverbal behavior modeling, and social dynamics understanding and prediction.</p>
+    <p>Previously, I received my Master's degree from Yonsei University under the supervision of <a href="https://vilab.yonsei.ac.kr/members/professor">Prof. Youngjung Uh</a>, where I focused on dynamic 3D scene reconstruction using 3DGS and NeRF. I also collaborated with <a href="https://taeinkwon.com/">Taein Kwon</a> on dynamic 3D hand reconstruction.</p>
+    <nav class="profile-links" aria-label="Profile links">
+      <a href="mailto:{{ site.data.main_info.email }}">Email</a>
+      <a href="{{ site.data.main_info.curriculum_vitae }}">CV</a>
+      <a href="{{ site.data.main_info.google_scholar }}">Scholar</a>
+      <a href="{{ site.data.main_info.github }}">GitHub</a>
+      <a href="{{ site.data.main_info.linkedin }}">LinkedIn</a>
+    </nav>
   </div>
-</div>
+  <img class="portrait" src="{{ site.data.main_info.profile_pic | relative_url }}" alt="Portrait of Seoha Kim" width="232" height="232">
+</header>
 
-<!-- ========== RESUME ========== -->
-<div class="docs-section" id="resume">
-  <h4>Vitae</h4>
-
-  <!-- <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p> -->
-
-  <!-- The Timeline -->
-  <ul class="timeline">
-    {% for exp in site.data.experience.experiences %}
-    <li>
-      {% if exp.category == "work" %}
-      <div class="direction-l">
-      {% else %}
-      <div class="direction-r">
-      {% endif %}
-        <div class="flag-wrapper">
-          <span class="flag">{{ exp.place }}</span>
-          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+<section class="section" id="publications" aria-labelledby="publications-heading">
+  <h2 id="publications-heading">Research</h2>
+  <p class="research-intro">In the long term, I hope to develop socially intelligent embodied agents, such as humanoid robots, that can consider both physical and social contexts and collaborate with people in everyday life.</p>
+  <p class="equal-note">* indicates equal contribution.</p>
+  <div class="publication-list">
+    {% for paper in site.data.publications.papers %}
+    <article class="publication">
+      <a class="publication-image" href="{% if paper.project %}{{ paper.project }}{% else %}{{ paper.paper_pdf }}{% endif %}" aria-label="Read {{ paper.title }}">
+        <img src="{{ paper.image | relative_url }}" alt="Preview of {{ paper.title }}" loading="lazy">
+      </a>
+      <div class="publication-details">
+        <a class="publication-title" href="{% if paper.project %}{{ paper.project }}{% else %}{{ paper.paper_pdf }}{% endif %}">{{ paper.title }}</a>
+        <div class="authors">{{ paper.authors }}</div>
+        <div class="venue">{{ paper.venue }}</div>
+        <div class="publication-links">
+          {% if paper.project %}<a href="{{ paper.project }}">project page</a>{% endif %}
+          {% if paper.paper_pdf %}<a href="{{ paper.paper_pdf }}">paper</a>{% endif %}
+          {% if paper.slides %}<a href="{{ paper.slides }}">slides</a>{% endif %}
+          {% if paper.poster %}<a href="{{ paper.poster }}">poster</a>{% endif %}
+          {% if paper.video %}<a href="{{ paper.video }}">video</a>{% endif %}
+          {% if paper.code %}<a href="{{ paper.code }}">code</a>{% endif %}
+          {% if paper.data %}<a href="{{ paper.data }}">data</a>{% endif %}
         </div>
-        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
       </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section vitae" id="vitae" aria-labelledby="vitae-heading">
+  <h2 id="vitae-heading">Vitae</h2>
+  <ul class="experience-list">
+    {% for exp in site.data.experience.experiences %}
+    <li class="experience">
+      <div class="experience-main"><strong>{{ exp.place }}</strong><span class="experience-time">{{ exp.time }}</span></div>
+      <div>{{ exp.title }} <span class="experience-detail">� {{ exp.subtitle }}</span></div>
     </li>
     {% endfor %}
   </ul>
-</div>
-</div>
+</section>
 
-</div> 
+<footer class="footer">Website layout inspired by <a href="https://jonbarron.info/">Jon Barron</a>.</footer>
