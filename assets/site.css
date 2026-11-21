@@ -44,7 +44,7 @@ h2 { margin: 0; font-weight: 400; font-size: 22px; }
 .paper-links { color: var(--text-muted); }
 .paper-authors { text-wrap: balance; }
 .paper-authors a, .paper-authors strong, .paper-authors b { white-space: nowrap; }
-.paper-authors sup { line-height: 0; font-size: .8em; }
+.paper-authors sup { line-height: 0; font-size: 1em; font-weight: 700; }
 .one { width: 160px; height: 160px; position: relative; }
 .one a, .one img { display: block; width: 100%; height: 100%; }
 .one img { object-fit: contain; }
