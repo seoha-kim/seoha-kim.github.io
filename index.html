@@ -2,61 +2,57 @@
 layout: default
 title: Home
 ---
-<header class="intro">
-  <div class="intro-copy">
-    <h1>{{ site.data.main_info.name }}</h1>
-    <p>I am a Graduate Researcher at the University of Melbourne. My research focuses on interpreting human behavior and social interactions from audiovisual observations, with interests in theory of mind (ToM), nonverbal behavior modeling, and social dynamics understanding and prediction.</p>
-    <p>Previously, I received my Master's degree from Yonsei University under the supervision of <a href="https://vilab.yonsei.ac.kr/members/professor">Prof. Youngjung Uh</a>, where I focused on dynamic 3D scene reconstruction using 3DGS and NeRF. I also collaborated with <a href="https://taeinkwon.com/">Taein Kwon</a> on dynamic 3D hand reconstruction.</p>
-    <nav class="profile-links" aria-label="Profile links">
-      <a href="mailto:{{ site.data.main_info.email }}">Email</a>
-      <a href="{{ site.data.main_info.curriculum_vitae }}">CV</a>
-      <a href="{{ site.data.main_info.google_scholar }}">Scholar</a>
-      <a href="{{ site.data.main_info.github }}">GitHub</a>
+<header class="bio">
+  <div class="bio-text">
+    <h1 class="name">{{ site.data.main_info.name }}</h1>
+    <p>
+      I am a Graduate Researcher at the University of Melbourne. My research focuses on interpreting human behavior and social interactions from audiovisual observations, with interests in theory of mind (ToM), nonverbal behavior modeling, and social dynamics understanding and prediction. In the long term, I hope to develop socially intelligent embodied agents, such as humanoid robots, that can consider both physical and social contexts and collaborate with people in everyday life.
+    </p>
+    <p>
+      Previously, I received my Master's degree from Yonsei University under the supervision of <a href="https://vilab.yonsei.ac.kr/members/professor">Prof. Youngjung Uh</a>, where I focused on dynamic 3D scene reconstruction using 3DGS and NeRF. I also collaborated with <a href="https://taeinkwon.com/">Taein Kwon</a> on dynamic 3D hand reconstruction.
+    </p>
+    <p class="bio-links">
+      <a href="mailto:{{ site.data.main_info.email }}">Email</a> &nbsp;/&nbsp;
+      <a href="{{ site.data.main_info.curriculum_vitae }}">CV</a> &nbsp;/&nbsp;
+      <a href="{{ site.data.main_info.google_scholar }}">Scholar</a> &nbsp;/&nbsp;
+      <a href="{{ site.data.main_info.github }}">GitHub</a> &nbsp;/&nbsp;
       <a href="{{ site.data.main_info.linkedin }}">LinkedIn</a>
-    </nav>
+    </p>
   </div>
-  <img class="portrait" src="{{ site.data.main_info.profile_pic | relative_url }}" alt="Portrait of Seoha Kim" width="232" height="232">
+  <div class="bio-photo">
+    <a href="{{ site.data.main_info.profile_pic | relative_url }}"><img src="{{ site.data.main_info.profile_pic | relative_url }}" alt="Seoha Kim" width="405" height="405"></a>
+  </div>
 </header>
 
-<section class="section" id="publications" aria-labelledby="publications-heading">
-  <h2 id="publications-heading">Research</h2>
-  <p class="research-intro">In the long term, I hope to develop socially intelligent embodied agents, such as humanoid robots, that can consider both physical and social contexts and collaborate with people in everyday life.</p>
-  <p class="equal-note">* indicates equal contribution.</p>
-  <div class="publication-list">
-    {% for paper in site.data.publications.papers %}
-    <article class="publication">
-      <a class="publication-image" href="{% if paper.project %}{{ paper.project }}{% else %}{{ paper.paper_pdf }}{% endif %}" aria-label="Read {{ paper.title }}">
-        <img src="{{ paper.image | relative_url }}" alt="Preview of {{ paper.title }}" loading="lazy">
-      </a>
-      <div class="publication-details">
-        <a class="publication-title" href="{% if paper.project %}{{ paper.project }}{% else %}{{ paper.paper_pdf }}{% endif %}">{{ paper.title }}</a>
-        <div class="authors">{{ paper.authors }}</div>
-        <div class="venue">{{ paper.venue }}</div>
-        <div class="publication-links">
-          {% if paper.project %}<a href="{{ paper.project }}">project page</a>{% endif %}
-          {% if paper.paper_pdf %}<a href="{{ paper.paper_pdf }}">paper</a>{% endif %}
-          {% if paper.slides %}<a href="{{ paper.slides }}">slides</a>{% endif %}
-          {% if paper.poster %}<a href="{{ paper.poster }}">poster</a>{% endif %}
-          {% if paper.video %}<a href="{{ paper.video }}">video</a>{% endif %}
-          {% if paper.code %}<a href="{{ paper.code }}">code</a>{% endif %}
-          {% if paper.data %}<a href="{{ paper.data }}">data</a>{% endif %}
-        </div>
+<section class="section-header" id="research" aria-labelledby="research-heading">
+  <h2 id="research-heading">Research</h2>
+  <p>* indicates equal contribution.</p>
+</section>
+
+<section class="papers" aria-label="Research papers">
+  {% for paper in site.data.publications.papers %}
+  <article class="paper">
+    <div class="paper-media">
+      <div class="one">
+        <a href="{% if paper.project %}{{ paper.project }}{% else %}{{ paper.paper_pdf }}{% endif %}"><img src="{{ paper.image | relative_url }}" alt="{{ paper.title }}" loading="lazy"></a>
       </div>
-    </article>
-    {% endfor %}
-  </div>
+    </div>
+    <div class="paper-info">
+      <a href="{% if paper.project %}{{ paper.project }}{% else %}{{ paper.paper_pdf }}{% endif %}" class="papertitle">{{ paper.title }}</a>
+      <div class="paper-authors">{{ paper.authors }}</div>
+      <div class="paper-venue"><em>{{ paper.venue }}</em></div>
+      <div class="paper-links">
+        {% if paper.project %}<a href="{{ paper.project }}">project page</a>{% endif %}
+        {% if paper.paper_pdf %}{% if paper.project %} / {% endif %}<a href="{{ paper.paper_pdf }}">paper</a>{% endif %}
+        {% if paper.slides %} / <a href="{{ paper.slides }}">slides</a>{% endif %}
+        {% if paper.poster %} / <a href="{{ paper.poster }}">poster</a>{% endif %}
+        {% if paper.video %} / <a href="{{ paper.video }}">video</a>{% endif %}
+        {% if paper.code %} / <a href="{{ paper.code }}">code</a>{% endif %}
+        {% if paper.data %} / <a href="{{ paper.data }}">data</a>{% endif %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
 </section>
 
-<section class="section vitae" id="vitae" aria-labelledby="vitae-heading">
-  <h2 id="vitae-heading">Vitae</h2>
-  <ul class="experience-list">
-    {% for exp in site.data.experience.experiences %}
-    <li class="experience">
-      <div class="experience-main"><strong>{{ exp.place }}</strong><span class="experience-time">{{ exp.time }}</span></div>
-      <div>{{ exp.title }} <span class="experience-detail">&middot; {{ exp.subtitle }}</span></div>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-
-<footer class="footer">Website layout inspired by <a href="https://jonbarron.info/">Jon Barron</a>.</footer>
+<footer class="site-footer">Website template by <a href="https://jonbarron.info/">Jon Barron</a>.</footer>
