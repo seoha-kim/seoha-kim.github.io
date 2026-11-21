@@ -36,7 +36,7 @@ title: Home
   {% for paper in site.data.publications.papers %}
   <article class="paper">
     <div class="paper-media">
-      <div class="one">
+      <div class="one{% if paper.image contains "hand4dgs_preview" or paper.image contains "scaff4d_preview" %} archive-date-covered{% endif %}">
         <a href="{% if paper.project %}{{ paper.project }}{% else %}{{ paper.paper_pdf }}{% endif %}"><img src="{{ paper.image | relative_url }}" alt="{{ paper.title }}" loading="lazy"></a>
       </div>
     </div>
