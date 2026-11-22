@@ -52,6 +52,10 @@ h2 { margin: 0; font-weight: 400; font-size: 22px; }
   content: ''; position: absolute; left: 0; top: 0; bottom: 0;
   width: 3.5%; background: #fff; pointer-events: none;
 }
+.one.hand-preview::before {
+  content: ''; position: absolute; left: 50%; top: 0; bottom: 0;
+  width: 2px; transform: translateX(-50%); background: #fff; pointer-events: none;
+}
 .site-footer { text-align: right; font-size: 13px; color: var(--text-muted); margin-top: 18px; }
 @media (max-width: 640px) {
   .page { padding: 0; }
