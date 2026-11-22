@@ -6,7 +6,7 @@ papers:
     selected: y
     image: "/assets/publications/hand4dgs_preview.png"
 
-  - title: "Efficient 4D Scaffold Gaussian Splatting with Dynamic‑Aware Anchor Growing"
+  - title: "4D Scaffold Gaussian Splatting with Dynamic-Aware Anchor Growing for Efficient and High-Fidelity Dynamic Scene Reconstruction"
     authors: "Woong Oh Cho, In Cho, <b>Seoha Kim</b>, Jeongmin Bae, Youngjung Uh, Seon Joo Kim"
     paper_pdf: "https://arxiv.org/abs/2411.17044"
     project: "https://raikuma.github.io/4D-Scaffold-GS-Page/"
